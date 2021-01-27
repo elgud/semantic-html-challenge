@@ -9,3 +9,35 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
+
+figure {
+  width: 80%;
+}
+
+table {
+  border: #800080;
+  table-layout: fixed;
+  text-align: center;
+  border-width: 3px;
+}
+
+thead {
+  background: url("./assets/leopardskin.jpg");
+  color: white;
+}
+
+tfoot {
+  background: url("./assets/leopardskin.jpg");
+  color: white;
+}
+tbody {
+  background: url("./assets/noise.png");
+}
+
+.odd {
+  background-color: #ff33cc;
+}
+
+.even {
+  background-color: #e495e4;
+}
