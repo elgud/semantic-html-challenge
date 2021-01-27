@@ -11,7 +11,7 @@ h1 {
 }
 
 figure {
-  width: 80%;
+  width: 95%;
 }
 
 table, td, th {
@@ -30,18 +30,36 @@ thead {
   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url("./assets/leopardskin.jpg");
   color: white;
   font-family: "Rock Salt";
+  font-size: 0.65em;
 }
 
 tfoot {
   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url("./assets/leopardskin.jpg");
   color: white;
   font-family: "Rock Salt";
+  font-size:0.65em;
 }
 
 tbody td {
   background: url("./assets/noise.png");
   border: none;
-  font-family: 'Helevetica Neu'
+  font-family: 'Helevetica Neu';
+  font-size: 0.8em;
+}
+
+td, th {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#label {
+  text-align: right;
+  padding-right: 15px;
+}
+
+#total{
+  text-align: left;
+  padding-left: 15px;
 }
 
 .odd {
