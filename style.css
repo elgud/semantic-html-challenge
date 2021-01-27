@@ -18,16 +18,19 @@ table {
   border: #800080;
   table-layout: fixed;
   text-align: center;
-  border-width: 3px;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 thead {
-  background: url("./assets/leopardskin.jpg");
+  background-image: url("./assets/leopardskin.jpg");
+  background-color: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5));
   color: white;
 }
 
 tfoot {
   background: url("./assets/leopardskin.jpg");
+  background-color: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5));
   color: white;
 }
 tbody {
@@ -35,9 +38,11 @@ tbody {
 }
 
 .odd {
+  background-image: url("./assets/noise.png");
   background-color: #ff33cc;
 }
 
 .even {
+  background-image: url("./assets/noise.png");
   background-color: #e495e4;
 }
