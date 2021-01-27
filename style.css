@@ -27,19 +27,21 @@ table {
 }
 
 thead {
-  background-image: url("./assets/leopardskin.jpg");
-  background-color: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5));
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url("./assets/leopardskin.jpg");
   color: white;
+  font-family: "Rock Salt";
 }
 
 tfoot {
-  background: url("./assets/leopardskin.jpg");
-  background-color: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5));
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url("./assets/leopardskin.jpg");
   color: white;
+  font-family: "Rock Salt";
 }
+
 tbody td {
   background: url("./assets/noise.png");
   border: none;
+  font-family: 'Helevetica Neu'
 }
 
 .odd {
