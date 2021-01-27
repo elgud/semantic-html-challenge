@@ -47,6 +47,16 @@ tbody td {
   font-size: 0.8em;
 }
 
+tbody tr:nth-child(odd) {
+  background-image: url("./assets/noise.png");
+  background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even) {
+  background-image: url("./assets/noise.png");
+  background-color: #e495e4;
+}
+
 td, th {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -62,12 +72,3 @@ td, th {
   padding-left: 15px;
 }
 
-.odd {
-  background-image: url("./assets/noise.png");
-  background-color: #ff33cc;
-}
-
-.even {
-  background-image: url("./assets/noise.png");
-  background-color: #e495e4;
-}
