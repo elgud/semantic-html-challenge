@@ -14,8 +14,12 @@ figure {
   width: 80%;
 }
 
+table, td, th {
+  border: 3px solid;
+  border-color: #800080;
+}
+
 table {
-  border: #800080;
   table-layout: fixed;
   text-align: center;
   border-collapse: collapse;
@@ -33,8 +37,9 @@ tfoot {
   background-color: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5));
   color: white;
 }
-tbody {
+tbody td {
   background: url("./assets/noise.png");
+  border: none;
 }
 
 .odd {
