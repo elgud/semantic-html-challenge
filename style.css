@@ -28,6 +28,7 @@ table {
 
 thead {
   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url("./assets/leopardskin.jpg");
+  background-size: 80%;
   color: white;
   font-family: "Rock Salt";
   font-size: 0.65em;
@@ -35,6 +36,7 @@ thead {
 
 tfoot {
   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url("./assets/leopardskin.jpg");
+  background-size: 80%;
   color: white;
   font-family: "Rock Salt";
   font-size:0.65em;
@@ -55,6 +57,10 @@ tbody tr:nth-child(odd) {
 tbody tr:nth-child(even) {
   background-image: url("./assets/noise.png");
   background-color: #e495e4;
+}
+
+tbody td:nth-child(1){
+  font-weight: bold;
 }
 
 td, th {
