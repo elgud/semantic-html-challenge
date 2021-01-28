@@ -30,7 +30,7 @@ thead {
   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url("./assets/leopardskin.jpg");
   background-size: 80%;
   color: white;
-  font-family: "Rock Salt";
+  font-family: "Rock Salt", cursive, serif;
   font-size: 0.65em;
 }
 
@@ -38,14 +38,14 @@ tfoot {
   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url("./assets/leopardskin.jpg");
   background-size: 80%;
   color: white;
-  font-family: "Rock Salt";
+  font-family: "Rock Salt", cursive, serif;
   font-size:0.65em;
 }
 
 tbody td {
   background: url("./assets/noise.png");
   border: none;
-  font-family: 'Helevetica Neue';
+  font-family: 'Helevetica Neue', Arial, Helvetica, sans-serif;
   font-size: 0.8em;
 }
 
@@ -83,7 +83,7 @@ caption {
   text-align: right;
   padding-top: 1em;
   padding-bottom: 1em;
-  font-family: "Rock Salt";
+  font-family: "Rock Salt", cursive, serif;
   font-size: 0.6em;
   color: gray;
   text-shadow: 0px 0px 1.5px gray;
